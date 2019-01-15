@@ -1,0 +1,43 @@
+.edited {
+    border: 2px dashed red !important;
+}
+tbody.edited {
+    box-shadow: 0 0 0 1px red;
+}
+.edited:not(.deleted){
+    border: 2px dashed green !important;
+}
+tbody.edited:not(.deleted){
+    box-shadow: 0 0 0 1px green;
+}
+
+#explanation {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-right:10px;
+    margin-top: 100px;
+    background-color: #979ffe;
+    border-radius: 6px;
+    z-index: 100;
+    padding: 5px 0 5px 0;
+}
+
+#explanation ul{
+    margin: 10px 10px 10px 15px !important;
+    list-style-type: disc;
+}
+
+#explanation ul li{
+    color: black;
+    margin: 0 5px 0 5px;
+}
+
+ins{
+    color:green !important;
+    border: 2px dashed green !important;
+}
+del{
+    color: red !important;
+    border: 2px dashed red !important;
+}

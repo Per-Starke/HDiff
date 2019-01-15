@@ -1,0 +1,2253 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <link rel="shortcut icon" href="../../pics/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="http://www.cs.ru.nl/~freek/css/courses.css"/>
+    <title>
+      IPK001: Formal Reasoning (2018-2019)
+    </title>
+    <style type="text/css">
+      
+  td {
+    vertical-align: top;
+    border: solid 1pt;
+    }
+  .hc {
+    color: red;
+    }
+  .wc {
+    color: green;
+    }
+  .rc {
+    color: purple;
+    }
+  .toets {
+    color: blue;
+    }
+  
+    </style>
+    <base href="http://www.cs.ru.nl/"/>
+  </head>
+  <body>
+    <div class="body">
+      <h1>
+        IPK001: Formal Reasoning
+      </h1>
+      <h3>
+        Teachers
+      </h3>
+      <ul>
+        <li>
+          <a href="../../index.html">
+            Freek Wiedijk
+          </a>
+          ,
+office: M1.03.04,
+e-mail: 
+          <a href="mailto:freek@cs.ru.nl">
+            freek@cs.ru.nl
+          </a>
+        </li>
+        <li>
+          <a href="http://www.cs.ru.nl/~hubbers/">
+            Engelbert Hubbers
+          </a>
+          ,
+office: M1.03.11A,
+e-mail: 
+          <a href="mailto:hubbers@cs.ru.nl">
+            hubbers@cs.ru.nl
+          </a>
+        </li>
+        <li>
+          Marloes Venema,
+office: M1.03.17,
+e-mail: 
+          <a href="mailto:M.Venema@cs.ru.nl">
+            M.Venema@cs.ru.nl
+          </a>
+        </li>
+        <li>
+          Daniel Anthes,
+e-mail: 
+          <a href="mailto:D.Anthes@student.ru.nl">
+            D.Anthes@student.ru.nl
+          </a>
+        </li>
+        <li>
+          Yvonne van den Broek,
+e-mail: 
+          <a href="mailto:Y.vandenBroek@student.ru.nl">
+            Y.vandenBroek@student.ru.nl
+          </a>
+        </li>
+        <li>
+          Jules van der Burgt,
+e-mail: 
+          <a href="mailto:J.L.vanderBurgt@student.ru.nl">
+            J.L.vanderBurgt@student.ru.nl
+          </a>
+        </li>
+        <li>
+          Elena Kreis,
+e-mail: 
+          <a href="mailto:E.Kreis@student.ru.nl">
+            E.Kreis@student.ru.nl
+          </a>
+        </li>
+        <li>
+          Daphne Smits,
+e-mail: 
+          <a href="mailto:D.A.Smits@student.ru.nl">
+            D.A.Smits@student.ru.nl
+          </a>
+        </li>
+      </ul>
+      <h3>
+        Course material
+      </h3>
+      <p>
+        
+The
+course notes will become available as a 
+        <a href="public/fr.pdf">
+          PDF
+        </a>
+        
+from this page.
+The chapters are:
+
+      </p>
+      <ul>
+        <li>
+          Propositional Logic
+        </li>
+        <li>
+          Predicate Logic
+        </li>
+        <li>
+          Languages
+        </li>
+        <li>
+          Automata
+        </li>
+        <li>
+          Discrete Mathematics
+        </li>
+        <li>
+          Modal Logic
+        </li>
+      </ul>
+      <p>
+        
+Each block of two chapters will be concluded with a written intermediate
+
+        <span class="toets">
+          test
+        </span>
+        .
+These 
+        <span class="toets">
+          tests
+        </span>
+         are not obligatory because
+there is a final 
+        <span class="toets">
+          exam
+        </span>
+         at the end of the semester.
+However, these intermediate 
+        <span class="toets">
+          tests
+        </span>
+         can be used
+to improve the result of the final 
+        <span class="toets">
+          exam
+        </span>
+        
+using the formula described below on this page.
+
+      </p>
+      <h3>
+        Late registration
+      </h3>
+      <p>
+        
+For students who want to register for this course, but cannot do this anymore
+because the registration is closed in Osiris: please go to the Student
+Service Desk at the Science faculty.
+
+      </p>
+      <h3>
+        Schedule
+      </h3>
+      <p>
+        
+On this page we try to list as clearly as possible what will be done
+at which moment in time within this course.
+However, this page is manually maintained, hence for instance
+changes of lecture halls are not automatically processed.
+Therefore you should always check your
+
+        <a href="https://persoonlijkrooster.ru.nl/login?newLocale=en_GB">
+          personal schedule
+        </a>
+        
+for the latest information on rooms and exam dates.
+
+      </p>
+      <p>
+        
+The coordinates of this course are:
+
+      </p>
+      <ul>
+        <li>
+          <span class="wc">
+            Typically the first hour of each block of two hours
+  is an exercise hour.
+  
+            <ul>
+              <li>
+                <span class="wc">
+                  Monday 10.30--11.15, SP1/SP2
+                </span>
+              </li>
+              <li>
+                <span class="wc">
+                  Wednesday 15.30--16.15, SP1/SP2
+                </span>
+              </li>
+            </ul>
+            
+  Unfortunately, because every third row needs to be empty for us to be
+  able to reach everybody, we don't fit in a single lecture hall.
+  Therefore, we have two of them.
+  In order to have a more or less even distribution, we ask you to
+  go to the halls that correspond with the following distribution
+  on family names.
+  
+            <ul>
+              <li>
+                SP1 for students with a family name in the range of A--K
+              </li>
+              <li>
+                SP2 for students with a family name in the range of L--Z
+              </li>
+            </ul>
+            <!--
+  Because of the number of students actually showing up at these exercise
+  hours, we cannot claim a large (and expensive) second lecture room
+  for that anymore.
+  So starting from November 5, there will only be one lecture room:
+-->          </span>
+        </li>
+        <li>
+          <span class="hc">
+            Typically the second hour will be a plenary lecture.
+  It will be in our largest hall.
+  
+          </span>
+          <ul>
+            <li>
+              <span class="hc">
+                Monday 11.30--12.15, SP2
+              </span>
+            </li>
+            <li>
+              <span class="hc">
+                Wednesday 16.30--17.15, SP2
+              </span>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <p>
+        
+Both on Monday as on Wednesday there is a combination of
+an 
+        <span class="wc">
+          exercise hour
+        </span>
+         and
+a 
+        <span class="hc">
+          plenary lecture
+        </span>
+        .
+The intermediate 
+        <span class="toets">
+          tests
+        </span>
+         always take 45 minutes,
+from 11.30 till 12.15 on Mondays and from 16.30 till 17.15 on Wednesdays.
+Each of these tests is preceded by a
+
+        <span class="rc">
+          response lecture
+        </span>
+         from 10.30 till 11.15 on Mondays and
+from 15.30 till 16.15 on Wednesdays,
+where you can ask and answer questions about the topic of the test.
+The colors indicate the type of activity.
+
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <td rowspan="3" valign="top">
+              <em>
+                week
+              </em>
+            </td>
+            <td rowspan="3" valign="top">
+              <em>
+                date
+              </em>
+            </td>
+            <td>
+              <em>
+                first hour
+              </em>
+            </td>
+            <td>
+              <em>
+                second hour
+              </em>
+            </td>
+            <td rowspan="3" valign="top">
+              <em>
+                remarks
+              </em>
+            </td>
+          </tr>
+          <tr>
+            <td class="wc">
+              <em>
+                exercise hour
+              </em>
+            </td>
+            <td class="hc">
+              <em>
+                plenary lecture
+              </em>
+            </td>
+          </tr>
+          <tr>
+            <td class="rc">
+              <em>
+                response lecture
+              </em>
+            </td>
+            <td class="toets">
+              <em>
+                test
+              </em>
+            </td>
+          </tr>
+        </thead>
+        <!-- https://drive.google.com/drive/folders/15zTDfxl1ihJdbttKMLwtw-C988yap2_M?usp=sharing_eil&ts=5b905075 -->        <tbody>
+          <tr>
+            <td rowspan="2" valign="top">
+              36
+            </td>
+            <td>
+              September 3
+            </td>
+            <td colspan="2" class="hc">
+              1.1, 1.2, 1.3, 1.4
+            </td>
+            <td>
+              Two hours of plenary lectures.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              September 5
+            </td>
+            <td class="wc">
+              <a href="pics/FR%202018%201ABCD.jpg">
+                <span class="wc">
+                  1: A, B, C, D
+                </span>
+              </a>
+            </td>
+            <td class="hc">
+              1.5, 1.6, 1.7
+            </td>
+            <td/>
+          </tr>
+          <tr>
+            <td rowspan="2" valign="top">
+              37
+            </td>
+            <td>
+              September 10
+            </td>
+            <td class="wc">
+              <a href="pics/FR%202018%201EFGHI.jpg">
+                <span class="wc">
+                  1: E, F, G, H, I
+                </span>
+              </a>
+            </td>
+            <td class="hc">
+              2.1, 2.2
+            </td>
+            <td/>
+          </tr>
+          <tr>
+            <td>
+              September 12
+            </td>
+            <td class="wc">
+              <a href="pics/FR%202018%202ABCD.jpg">
+                <span class="wc">
+                  2: A, B, C, D
+                </span>
+              </a>
+            </td>
+            <td class="hc">
+              2.3
+            </td>
+            <td/>
+          </tr>
+          <tr>
+            <td rowspan="2" valign="top">
+              38
+            </td>
+            <td>
+              September 17
+            </td>
+            <td class="wc">
+              <a href="pics/FR%202018%202EFGHIJ.jpg">
+                <span class="wc">
+                  2: E, F, G, H, I, J
+                </span>
+              </a>
+            </td>
+            <td class="hc">
+              2.4
+            </td>
+            <td/>
+          </tr>
+          <tr>
+            <td>
+              September 19
+            </td>
+            <td class="wc" colspan="2">
+              <a href="pics/FR%202018%202KLM.jpg">
+                <span class="wc">
+                  2: K, L, M
+                </span>
+              </a>
+            </td>
+            <td>
+              No plenary lecture, but two exercise hours.
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="2" valign="top">
+              39
+            </td>
+            <td>
+              <b>
+                September 24
+              </b>
+            </td>
+            <td class="rc">
+              recap
+            </td>
+            <td class="toets">
+              <b>
+                test 1: chapters 1 and 2
+              </b>
+            </td>
+            <td/>
+          </tr>
+          <tr>
+            <td>
+              September 26
+            </td>
+            <td>
+              no exercise hour
+            </td>
+            <td class="hc">
+              3.1
+            </td>
+            <td>
+              Only a plenary lecture.
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="2" valign="top">
+              40
+            </td>
+            <td>
+              October 1
+            </td>
+            <td class="wc">
+              <a href="pics/FR%202018%203AB.jpg">
+                <span class="wc">
+                  3: A, B
+                </span>
+              </a>
+            </td>
+            <td class="hc">
+              3.2
+            </td>
+            <td/>
+          </tr>
+          <tr>
+            <td>
+              October 3
+            </td>
+            <td class="wc">
+              <a href="pics/FR%202018%203CDE.jpg">
+                <span class="wc">
+                  3: C, D, E
+                </span>
+              </a>
+            </td>
+            <td class="hc">
+              3.3
+            </td>
+            <td/>
+          </tr>
+          <tr>
+            <td rowspan="2" valign="top">
+              41
+            </td>
+            <td>
+              October 8
+            </td>
+            <td class="wc">
+              <a href="pics/FR%202018%203FGH.jpg">
+                <span class="wc">
+                  3: F, G, H
+                </span>
+              </a>
+            </td>
+            <td class="hc">
+              3.3, 3.4
+            </td>
+            <td/>
+          </tr>
+          <tr>
+            <td>
+              October 10
+            </td>
+            <td class="wc">
+              <a href="pics/FR%202018%203IJKLM.jpg">
+                <span class="wc">
+                  3: I, J, K, L, M
+                </span>
+              </a>
+            </td>
+            <td class="hc">
+              4.1, 4.2
+            </td>
+            <td/>
+          </tr>
+          <tr>
+            <td rowspan="2" valign="top">
+              42
+            </td>
+            <td>
+              October 15
+            </td>
+            <td class="wc">
+              <a href="pics/FR%202018%204ABCDE.jpg">
+                <span class="wc">
+                  4: A, B, C, D, E
+                </span>
+              </a>
+            </td>
+            <td class="hc">
+              4.2
+            </td>
+            <td/>
+          </tr>
+          <tr>
+            <td>
+              October 17
+            </td>
+            <td class="wc">
+              <a href="pics/FR%202018%204FGHI.jpg">
+                <span class="wc">
+                  4: F, G, H, I
+                </span>
+              </a>
+            </td>
+            <td class="hc">
+              4.3
+            </td>
+            <td/>
+          </tr>
+          <tr>
+            <td rowspan="2" valign="top">
+              43
+            </td>
+            <td>
+              October 22
+            </td>
+            <td colspan="2">
+              quarter break
+            </td>
+            <td/>
+          </tr>
+          <tr>
+            <td>
+              October 24
+            </td>
+            <td colspan="2">
+              quarter break
+            </td>
+            <td/>
+          </tr>
+          <tr>
+            <td rowspan="2" valign="top">
+              44
+            </td>
+            <td>
+              October 29
+            </td>
+            <td colspan="2">
+              quarter break
+            </td>
+            <td/>
+          </tr>
+          <tr>
+            <td>
+              October 31
+            </td>
+            <td colspan="2">
+              quarter break
+            </td>
+            <td/>
+          </tr>
+          <tr>
+            <td rowspan="2" valign="top">
+              45
+            </td>
+            <td>
+              November 5
+            </td>
+            <td class="wc" colspan="2">
+              <a href="pics/FR%202018%204JKLMN.jpg">
+                <span class="wc">
+                  4: J, K, L, M, N
+                </span>
+              </a>
+            </td>
+            <td>
+              No plenary lecture, but two exercise hours.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <b>
+                November 7
+              </b>
+            </td>
+            <td class="rc">
+              recap
+            </td>
+            <td class="toets">
+              <b>
+                test 2: chapters 3 and 4
+              </b>
+            </td>
+            <td/>
+          </tr>
+          <tr>
+            <td rowspan="2" valign="top">
+              46
+            </td>
+            <td>
+              November 12
+            </td>
+            <td>
+              no exercise hour
+            </td>
+            <td class="hc">
+              5.1
+            </td>
+            <td>
+              Only a plenary lecture.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              November 14
+            </td>
+            <td class="wc">
+              <a href="pics/FR%202018%205ABC.jpg">
+                <span class="wc">
+                  5: A, B, C
+                </span>
+              </a>
+            </td>
+            <td class="hc">
+              5.2, 5.3, 5.4
+            </td>
+            <td/>
+          </tr>
+          <tr>
+            <td rowspan="2" valign="top">
+              47
+            </td>
+            <td>
+              November 19
+            </td>
+            <td class="wc">
+              <a href="pics/FR%202018%205DEFGHI.jpg">
+                <span class="wc">
+                  5: D, E, F, G, H, I
+                </span>
+              </a>
+            </td>
+            <td class="hc">
+              5.5, 5.6, 5.7
+            </td>
+            <td/>
+          </tr>
+          <tr>
+            <td>
+              November 21
+            </td>
+            <td class="wc">
+              <a href="pics/FR%202018%205JKLMNOP.jpg">
+                <span class="wc">
+                  5: J, K, L, M, N, O, P
+                </span>
+              </a>
+            </td>
+            <td class="hc">
+              5.8
+            </td>
+            <td/>
+          </tr>
+          <tr>
+            <td rowspan="2" valign="top">
+              48
+            </td>
+            <td>
+              November 26
+            </td>
+            <td class="wc">
+              <a href="pics/FR%202018%205QRS.jpg">
+                <span class="wc">
+                  5: Q, R, S
+                </span>
+              </a>
+            </td>
+            <td class="hc">
+              5.8
+            </td>
+            <td/>
+          </tr>
+          <tr>
+            <td>
+              November 28
+            </td>
+            <td class="wc">
+              <a href="pics/FR%202018%205TUVW.jpg">
+                <span class="wc">
+                  5: T, U, V, W
+                </span>
+              </a>
+            </td>
+            <td class="hc">
+              5.9
+            </td>
+            <td/>
+          </tr>
+          <tr>
+            <td rowspan="2" valign="top">
+              49
+            </td>
+            <td>
+              December 3
+            </td>
+            <td class="wc">
+              <a href="pics/FR%202018%205XYZ.jpg">
+                <span class="wc">
+                  5: X, Y, Z
+                </span>
+              </a>
+            </td>
+            <td class="hc">
+              5.10
+            </td>
+            <td/>
+          </tr>
+          <tr>
+            <td>
+              December 5
+            </td>
+            <td class="wc">
+              5: AA, AB, AC, AD, AE, AF, AG, AH
+            </td>
+            <td class="hc">
+              6.1, 6.2, 6.3, 6.4
+            </td>
+            <td/>
+          </tr>
+          <tr>
+            <td rowspan="2" valign="top">
+              50
+            </td>
+            <td>
+              December 10
+            </td>
+            <td class="wc">
+              <a href="pics/FR%202018%206ABCDEF.jpg">
+                <span class="wc">
+                  6: A, B, C, D, E, F
+                </span>
+              </a>
+            </td>
+            <td class="hc">
+              6.5
+            </td>
+            <td/>
+          </tr>
+          <tr>
+            <td>
+              December 12
+            </td>
+            <td class="wc">
+              6: G, H, I
+            </td>
+            <td class="hc">
+              6.6
+            </td>
+            <td/>
+          </tr>
+          <tr>
+            <td rowspan="2" valign="top">
+              51
+            </td>
+            <td>
+              December 17
+            </td>
+            <td class="wc">
+              6: J, K, L, M, N, O
+            </td>
+            <td class="hc">
+              applications
+            </td>
+            <td/>
+          </tr>
+          <tr>
+            <td>
+              <b>
+                December 19
+              </b>
+            </td>
+            <td class="rc">
+              recap
+            </td>
+            <td class="toets">
+              <b>
+                test 3: chapters 5 and 6
+              </b>
+            </td>
+            <td/>
+          </tr>
+          <tr>
+            <td rowspan="2" valign="top">
+              52
+            </td>
+            <td>
+              December 24
+            </td>
+            <td colspan="2">
+              Christmas break
+            </td>
+            <td/>
+          </tr>
+          <tr>
+            <td>
+              December 26
+            </td>
+            <td colspan="2">
+              Christmas break
+            </td>
+            <td/>
+          </tr>
+          <tr>
+            <td rowspan="2" valign="top">
+              1
+            </td>
+            <td>
+              December 31
+            </td>
+            <td colspan="2">
+              Christmas break
+            </td>
+            <td/>
+          </tr>
+          <tr>
+            <td>
+              January 2
+            </td>
+            <td colspan="2">
+              Christmas break
+            </td>
+            <td/>
+          </tr>
+          <tr>
+            <td rowspan="3" valign="top">
+              2
+            </td>
+            <td>
+              January 7
+            </td>
+            <td colspan="2" class="rc">
+              recap: last years exam
+            </td>
+            <td/>
+          </tr>
+          <tr>
+            <td>
+              <b>
+                January 9
+              </b>
+            </td>
+            <td/>
+            <td class="toets">
+              <b>
+                additional test
+              </b>
+            </td>
+            <td/>
+          </tr>
+          <tr>
+            <td>
+              <b>
+                January 11, 12.30--15.30
+              </b>
+            </td>
+            <td colspan="2" class="toets">
+              final exam
+            </td>
+            <td>
+              Note that time and location may change, so always check the official schedule!
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        
+(This table will be updated during the semester according to the circumstances.)
+
+      </p>
+      <h3>
+        Grading
+      </h3>
+      <p>
+        
+The final grade is calculated via the formula
+
+      </p>
+      <center>
+        
+max(
+        <em>
+          exam
+        </em>
+        , (
+        <em>
+          average of three intermediate tests
+        </em>
+         + 
+        <em>
+          exam
+        </em>
+        )/2)
+
+      </center>
+      <p>
+        
+Final grades are rounded into halves.
+However, since we are not allowed to register a 5.5 within Osiris,
+grades between 5.5 (inclusive) and 6.0 will be rounded upwards to a 6.0 and
+grades between 5 and 5.5 (exclusive) will be rounded downwards to a 5.0.
+
+      </p>
+      <p>
+        
+Both the 
+        <span class="toets">
+          tests
+        </span>
+        
+and the 
+        <span class="toets">
+          exam
+        </span>
+         are  "closed book".
+
+The 
+        <span class="toets">
+          additional test
+        </span>
+         in January
+is intended for students who missed one or more of the other tests,
+but other students may try it as well.
+However, there will be only one lecture room available, so the amount of
+students that can participate is automatically limited by the size of the
+room.
+Usually, for each student that wants to do this test there is a chair
+available.
+However, if there are more students willing to do this test than we can
+accomodate in the lecture room, students that really missed one or
+more tests will be admitted to the lecture room first.
+Note that this single test covers all topics.
+So if you missed the test on propositional and predicate logic you will
+also have to study
+all other topics for the additional test (which is of course a good preparation
+for the final exam).
+Note also that Freek typically wants this test to be a bit more challenging
+than the regular tests.
+
+      </p>
+      <h3>
+        Resources and solutions
+      </h3>
+      <ul>
+        <li>
+          <a href="public/fr.pdf">
+            course notes
+          </a>
+        </li>
+        <li>
+          <a href="public/fr-exercises.pdf">
+            solutions to the exercises listed within the course notes
+          </a>
+        </li>
+        <li>
+          <a href="public/inductionscheme.pdf">
+            scheme for a proof with mathematical induction
+          </a>
+        </li>
+      </ul>
+      <p>
+        
+The file containing the solutions will normally be updated every weekend with
+the solutions of last weeks exercises.
+However, since this is a manual process, we might forget it.
+So if it takes too long, please send us an e-mail about this.
+In addition, the solutions will also become available via a second channel
+in Brightspace, so if we forgot to update the file on this page, you
+might check the course content within Brightspace.
+
+      </p>
+      <h3>
+        Tests and exams
+      </h3>
+      <p>
+        Below you can find a long list of intermediate tests and exams from
+this year and previous years.
+Unfortunately, all tests before 2016–2017 were in Dutch.
+In order to provide more options for studying the course material for those
+who do not speak Dutch, we started translating old tests to English.
+If the text below is in English then the test and solutions have already
+been translated to English.
+
+      </p>
+      <h4>
+        This year's tests
+      </h4>
+      <ul>
+        <!--
+<li> <a href="../fr-2018/public/test1.pdf">test 1</a> on Propositional and Predicate Logic</li>
+<li> <a href="../fr-2018/public/solutions1.pdf">solutions test 1</a> </li>
+<li> <a href="../fr-2018/public/test2.pdf">test 2</a> on Languages and Automata</li>
+<li> <a href="../fr-2018/public/solutions2.pdf">solutions test 2</a> </li>
+<li> <a href="../fr-2018/public/test3.pdf">test 3</a> on Discrete Mathematics and Modal Logic</li>
+<li> <a href="../fr-2018/public/solutions3.pdf">solutions test 3</a> </li>
+<li> <a href="../fr-2018/public/test4.pdf">additional test</a></li>
+<li> <a href="../fr-2018/public/solutions4.pdf">solutions additional test</a> </li>
+</ul>
+<ul>
+<li> <a href="../fr-2018/public/exam.pdf">exam</a> </li>
+<li> <a href="../fr-2018/public/solutions-exam.pdf">solutions exam</a> </li>
+-->      </ul>
+      <h4>
+        Tests from 2017
+      </h4>
+      <ul>
+        <li>
+          <a href="../fr-2017/public/test1.pdf">
+            test 1
+          </a>
+           on Propositional and Predicate Logic
+        </li>
+        <li>
+          <a href="../fr-2017/public/solutions1.pdf">
+            solutions test 1
+          </a>
+        </li>
+        <li>
+          <a href="../fr-2017/public/test2.pdf">
+            test 2
+          </a>
+           on Languages and Automata
+        </li>
+        <li>
+          <a href="../fr-2017/public/solutions2.pdf">
+            solutions test 2
+          </a>
+        </li>
+        <li>
+          <a href="../fr-2017/public/test3.pdf">
+            test 3
+          </a>
+           on Discrete Mathematics and Modal Logic
+        </li>
+        <li>
+          <a href="../fr-2017/public/solutions3.pdf">
+            solutions test 3
+          </a>
+        </li>
+        <li>
+          <a href="../fr-2017/public/test4.pdf">
+            additional test
+          </a>
+        </li>
+        <li>
+          <a href="../fr-2017/public/solutions4.pdf">
+            solutions additional test
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="../fr-2017/public/exam.pdf">
+            exam
+          </a>
+        </li>
+        <li>
+          <a href="../fr-2017/public/solutions-exam.pdf">
+            solutions exam
+          </a>
+        </li>
+      </ul>
+      <h4>
+        Tests from 2016
+      </h4>
+      <ul>
+        <li>
+          <a href="../fd-2016/public/toets1.pdf">
+            test 1
+          </a>
+           on Propositional Logic
+        </li>
+        <li>
+          <a href="../fd-2016/public/uitwerking1.pdf">
+            solutions test 1
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2016/public/toets2.pdf">
+            test 2
+          </a>
+           on Predicate Logic
+        </li>
+        <li>
+          <a href="../fd-2016/public/uitwerking2.pdf">
+            solutions test 2
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2016/public/toets3.pdf">
+            test 3
+          </a>
+           on Languages and Automata
+        </li>
+        <li>
+          <a href="../fd-2016/public/uitwerking3.pdf">
+            solutions test 3
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2016/public/toets4.pdf">
+            test 4
+          </a>
+           on Discrete Mathematics
+        </li>
+        <li>
+          <a href="../fd-2016/public/uitwerking4.pdf">
+            solutions test 4
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2016/public/toets5.pdf">
+            test 5
+          </a>
+           on Modal Logic
+        </li>
+        <li>
+          <a href="../fd-2016/public/uitwerking5.pdf">
+            solutions test 5
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2016/public/toets6.pdf">
+            additional test
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2016/public/uitwerking6.pdf">
+            solutions additional test
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="../fd-2016/public/tentamen.pdf">
+            exam
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2016/public/tentamen-uitwerking.pdf">
+            solutions exam
+          </a>
+        </li>
+      </ul>
+      <h4>
+        Tests from 2015
+      </h4>
+      <ul>
+        <li>
+          <a href="../fd-2015/public/toets1-en.pdf">
+            test 1
+          </a>
+           on Propostional logic
+        </li>
+        <li>
+          <a href="../fd-2015/public/uitwerking1-en.pdf">
+            solutions test 1
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2015/public/toets2-en.pdf">
+            test 2
+          </a>
+           on Predicate logic
+        </li>
+        <li>
+          <a href="../fd-2015/public/uitwerking2-en.pdf">
+            solutions test 2
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2015/public/toets3-en.pdf">
+            test 3
+          </a>
+           on Languages and Automata
+        </li>
+        <li>
+          <a href="../fd-2015/public/uitwerking3-en.pdf">
+            solutions test 3
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2015/public/toets4-en.pdf">
+            test 4
+          </a>
+           on Discrete Mathematics
+        </li>
+        <li>
+          <a href="../fd-2015/public/uitwerking4-en.pdf">
+            solutions test 4
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2015/public/toets5-en.pdf">
+            test 5
+          </a>
+           on Modal Logic
+        </li>
+        <li>
+          <a href="../fd-2015/public/uitwerking5-en.pdf">
+            solutions test 5
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2015/public/toets6-en.pdf">
+            additional test
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2015/public/uitwerking6-en.pdf">
+            solutions additional test
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="../fd-2015/public/tentamen-en.pdf">
+            exam
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2015/public/tentamen-en-uitwerking.pdf">
+            solutions exam
+          </a>
+        </li>
+      </ul>
+      <h4>
+        Tests from 2014
+      </h4>
+      <ul>
+        <li>
+          <a href="../fd-2014/public/toets1-en.pdf">
+            test 1
+          </a>
+           on Propostional logic
+        </li>
+        <li>
+          <a href="../fd-2014/public/uitwerking1-en.pdf">
+            solutions test 1
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2014/public/toets2-en.pdf">
+            test 2
+          </a>
+           on Predicate logic
+        </li>
+        <li>
+          <a href="../fd-2014/public/uitwerking2-en.pdf">
+            solutions test 2
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2014/public/toets3-en.pdf">
+            test 3
+          </a>
+           on Languages and Automata
+        </li>
+        <li>
+          <a href="../fd-2014/public/uitwerking3-en.pdf">
+            solutions test 3
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2014/public/toets4-en.pdf">
+            test 4
+          </a>
+           on Discrete Mathematics
+        </li>
+        <li>
+          <a href="../fd-2014/public/uitwerking4-en.pdf">
+            solutions test 4
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2014/public/toets5-en.pdf">
+            test 5
+          </a>
+           on Modal Logic
+        </li>
+        <li>
+          <a href="../fd-2014/public/uitwerking5-en.pdf">
+            solutions test 5
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2014/public/toets6-en.pdf">
+            additional test
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2014/public/uitwerking6-en.pdf">
+            solutions additional test
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="../fd-2014/public/tentamen-en.pdf">
+            exam
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2014/public/uitwerking-tentamen-en.pdf">
+            solutions exam
+          </a>
+        </li>
+      </ul>
+      <h4>
+        Tests from 2013
+      </h4>
+      <ul>
+        <li>
+          <a href="../fd-2013/public/toets1.pdf">
+            toets 1
+          </a>
+           over Propositielogica
+        </li>
+        <li>
+          <a href="../fd-2013/public/uitwerking1.pdf">
+            uitwerkingen toets 1
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2013/public/toets2.pdf">
+            toets 2
+          </a>
+           over Predikaatlogica
+        </li>
+        <li>
+          <a href="../fd-2013/public/uitwerking2.pdf">
+            uitwerkingen toets 2
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2013/public/toets3.pdf">
+            toets 3
+          </a>
+           over Talen en automaten
+        </li>
+        <li>
+          <a href="../fd-2013/public/uitwerking3.pdf">
+            uitwerkingen toets 3
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2013/public/toets4.pdf">
+            toets 4
+          </a>
+           over Discrete wiskunde
+        </li>
+        <li>
+          <a href="../fd-2013/public/uitwerking4.pdf">
+            uitwerkingen toets 4
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2013/public/toets5.pdf">
+            toets 5
+          </a>
+           over Modale logica
+        </li>
+        <li>
+          <a href="../fd-2013/public/uitwerking5.pdf">
+            uitwerkingen toets 5
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2013/public/toets6.pdf">
+            inhaaltoets
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2013/public/uitwerking6.pdf">
+            uitwerkingen inhaaltoets
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="../fd-2013/public/tentamen.pdf">
+            tentamen
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2013/public/uitwerking-tentamen.pdf">
+            uitwerkingen tentamen
+          </a>
+        </li>
+      </ul>
+      <h4>
+        Tests from 2012
+      </h4>
+      <ul>
+        <li>
+          <a href="../fd-2012/public/toets1.pdf">
+            toets 1
+          </a>
+           over Propositielogica
+        </li>
+        <li>
+          <a href="../fd-2012/public/uitwerking1.pdf">
+            uitwerkingen toets 1
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2012/public/toets2.pdf">
+            toets 2
+          </a>
+           over Predikaatlogica
+        </li>
+        <li>
+          <a href="../fd-2012/public/uitwerking2.pdf">
+            uitwerkingen toets 2
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2012/public/toets3.pdf">
+            toets 3
+          </a>
+           over Talen en automaten
+        </li>
+        <li>
+          <a href="../fd-2012/public/uitwerking3.pdf">
+            uitwerkingen toets 3
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2012/public/toets4.pdf">
+            toets 4
+          </a>
+           over Discrete wiskunde
+        </li>
+        <li>
+          <a href="../fd-2012/public/uitwerking4.pdf">
+            uitwerkingen toets 4
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2012/public/toets5.pdf">
+            toets 5
+          </a>
+           over Modale logica
+        </li>
+        <li>
+          <a href="../fd-2012/public/uitwerking5.pdf">
+            uitwerkingen toets 5
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2012/public/toets6.pdf">
+            inhaaltoets
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2012/public/uitwerking6.pdf">
+            uitwerkingen inhaaltoets
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="../fd-2012/public/tentamen.pdf">
+            tentamen
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2012/public/uitwerking-tentamen.pdf">
+            uitwerkingen tentamen
+          </a>
+        </li>
+      </ul>
+      <h4>
+        Tests from 2011
+      </h4>
+      <ul>
+        <li>
+          <a href="../fd-2011/public/toets1.pdf">
+            toets 1
+          </a>
+           over Propositielogica
+        </li>
+        <li>
+          <a href="../fd-2011/public/uitwerking1.pdf">
+            uitwerkingen toets 1
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2011/public/toets2.pdf">
+            toets 2
+          </a>
+           over Predikaatlogica
+        </li>
+        <li>
+          <a href="../fd-2011/public/uitwerking2.pdf">
+            uitwerkingen toets 2
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2011/public/toets3.pdf">
+            toets 3
+          </a>
+           over Talen en automaten
+        </li>
+        <li>
+          <a href="../fd-2011/public/uitwerking3.pdf">
+            uitwerkingen toets 3
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2011/public/toets4.pdf">
+            toets 4
+          </a>
+           over Discrete wiskunde
+        </li>
+        <li>
+          <a href="../fd-2011/public/uitwerking4.pdf">
+            uitwerkingen toets 4
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2011/public/toets5.pdf">
+            toets 5
+          </a>
+           over Modale logica
+        </li>
+        <li>
+          <a href="../fd-2011/public/uitwerking5.pdf">
+            uitwerkingen toets 5
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2011/public/toets6.pdf">
+            inhaaltoets
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2011/public/uitwerking6.pdf">
+            uitwerkingen inhaaltoets
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="../fd-2011/public/tentamen.pdf">
+            tentamen
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2011/public/uitwerking7.pdf">
+            uitwerkingen tentamen
+          </a>
+        </li>
+      </ul>
+      <h4>
+        Tests from 2010
+      </h4>
+      <ul>
+        <li>
+          <a href="../fd-2010/public/toets1.pdf">
+            toets 1
+          </a>
+           over Propositielogica
+        </li>
+        <li>
+          <a href="../fd-2010/public/uitwerking1.pdf">
+            uitwerkingen toets 1
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2010/public/toets2.pdf">
+            toets 2
+          </a>
+           over Predikaatlogica
+        </li>
+        <li>
+          <a href="../fd-2010/public/uitwerking2.pdf">
+            uitwerkingen toets 2
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2010/public/toets3.pdf">
+            toets 3
+          </a>
+           over Talen en automaten
+        </li>
+        <li>
+          <a href="../fd-2010/public/uitwerking3.pdf">
+            uitwerkingen toets 3
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2010/public/toets4.pdf">
+            toets 4
+          </a>
+           over Discrete wiskunde
+        </li>
+        <li>
+          <a href="../fd-2010/public/uitwerking4.pdf">
+            uitwerkingen toets 4
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2010/public/toets5.pdf">
+            toets 5
+          </a>
+           over Modale logica
+        </li>
+        <li>
+          <a href="../fd-2010/public/uitwerking5.pdf">
+            uitwerkingen toets 5
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2010/public/toets6.pdf">
+            inhaaltoets
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2010/public/uitwerking6.pdf">
+            uitwerkingen inhaaltoets
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="../fd-2010/public/tentamen.pdf">
+            tentamen
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2010/public/uitwerking7.pdf">
+            uitwerkingen tentamen
+          </a>
+        </li>
+      </ul>
+      <h4>
+        Tests from 2009
+      </h4>
+      <ul>
+        <li>
+          <a href="../fd-2009/public/toets1.pdf">
+            toets 1
+          </a>
+           over Propositielogica 
+        </li>
+        <li>
+          <a href="../fd-2009/public/uitwerking1.pdf">
+            uitwerkingen toets 1
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2009/public/toets2.pdf">
+            toets 2
+          </a>
+           over Predikaatlogica 
+        </li>
+        <li>
+          <a href="../fd-2009/public/uitwerking2.pdf">
+            uitwerkingen toets 2
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2009/public/toets3.pdf">
+            toets 3
+          </a>
+           over Talen en automaten
+        </li>
+        <li>
+          <a href="../fd-2009/public/uitwerking3.pdf">
+            uitwerkingen toets 3
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2009/public/toets4.pdf">
+            toets 4
+          </a>
+           over Discrete wiskunde
+        </li>
+        <li>
+          <a href="../fd-2009/public/uitwerking4.pdf">
+            uitwerkingen toets 4
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2009/public/toets5.pdf">
+            toets 5
+          </a>
+           over Modale logica
+        </li>
+        <li>
+          <a href="../fd-2009/public/uitwerking5.pdf">
+            uitwerkingen toets 5
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2009/public/toets6.pdf">
+            inhaaltoets
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2009/public/uitwerking6.pdf">
+            uitwerkingen inhaaltoets
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="../fd-2009/public/tentamen.pdf">
+            tentamen
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2009/public/uitwerking7.pdf">
+            uitwerkingen tentamen
+          </a>
+        </li>
+      </ul>
+      <h4>
+        Tests from 2008
+      </h4>
+      <ul>
+        <li>
+          <a href="../fd-2008/public/toets1.pdf">
+            toets 1
+          </a>
+           over Propositielogica 
+        </li>
+        <li>
+          <a href="../fd-2008/public/uitwerking1.pdf">
+            uitwerkingen toets 1
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2008/public/toets2.pdf">
+            toets 2
+          </a>
+           over Predikaatlogica 
+        </li>
+        <li>
+          <a href="../fd-2008/public/uitwerking2.pdf">
+            uitwerkingen toets 2
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2008/public/toets3.pdf">
+            toets 3
+          </a>
+           over Talen en automaten 
+        </li>
+        <li>
+          <a href="../fd-2008/public/uitwerking3.pdf">
+            uitwerkingen toets 3
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2008/public/toets4.pdf">
+            toets 4
+          </a>
+           over Discrete wiskunde 
+        </li>
+        <li>
+          <a href="../fd-2008/public/uitwerking4.pdf">
+            uitwerkingen toets 4
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2008/public/toets5.pdf">
+            toets 5
+          </a>
+           over Modale logica 
+        </li>
+        <li>
+          <a href="../fd-2008/public/uitwerking5.pdf">
+            uitwerkingen toets 5
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2008/public/toets6.pdf">
+            inhaaltoets
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2008/public/uitwerking6.pdf">
+            uitwerkingen inhaaltoets
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="../fd-2008/public/tentamen.pdf">
+            tentamen
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2008/public/uitwerking7.pdf">
+            uitwerkingen tentamen
+          </a>
+        </li>
+      </ul>
+      <h4>
+        Tests from 2007
+      </h4>
+      <ul>
+        <li>
+          <a href="../fd-2007/public/toets1.pdf">
+            toets 1
+          </a>
+           over Propositielogica 
+        </li>
+        <li>
+          <a href="../fd-2007/public/uitwerking1.pdf">
+            uitwerkingen toets 1
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2007/public/toets2.pdf">
+            toets 2
+          </a>
+           over Predikaatlogica 
+        </li>
+        <li>
+          <a href="../fd-2007/public/uitwerking2.pdf">
+            uitwerkingen toets 2
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2007/public/toets3.pdf">
+            toets 3
+          </a>
+           over Talen 
+        </li>
+        <li>
+          <a href="../fd-2007/public/uitwerking3.pdf">
+            uitwerkingen toets 3
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2007/public/toets4.pdf">
+            toets 4
+          </a>
+           over Combinatoriek 
+        </li>
+        <li>
+          <a href="../fd-2007/public/uitwerking4.pdf">
+            uitwerkingen toets 4
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2007/public/toets5.pdf">
+            toets 5
+          </a>
+           over Automaten 
+        </li>
+        <li>
+          <a href="../fd-2007/public/uitwerking5.pdf">
+            uitwerkingen toets 5
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2007/public/toets6.pdf">
+            inhaaltoets
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2007/public/uitwerking6.pdf">
+            uitwerkingen inhaaltoets
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="../fd-2007/public/tentamen.pdf">
+            tentamen
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2007/public/uitwerking7.pdf">
+            uitwerkingen tentamen
+          </a>
+        </li>
+      </ul>
+      <h4>
+        Tests from 2006
+      </h4>
+      <ul>
+        <li>
+          <a href="../fd-2006/public/toets1.pdf">
+            toets 1
+          </a>
+           over Propositielogica 
+        </li>
+        <li>
+          <a href="../fd-2006/public/uitw-toets1.pdf">
+            uitwerkingen toets 1
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2006/public/toets2.pdf">
+            toets 2
+          </a>
+           over Predikaatlogica 
+        </li>
+        <li>
+          <a href="../fd-2006/public/uitw-toets2.pdf">
+            uitwerkingen toets 2
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2006/public/toets3.pdf">
+            toets 3
+          </a>
+           over Talen 
+        </li>
+        <li>
+          <a href="../fd-2006/public/uitw-toets3.pdf">
+            uitwerkingen toets 3
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2006/public/toets4.pdf">
+            toets 4
+          </a>
+           over Combinatoriek 
+        </li>
+        <li>
+          <a href="../fd-2006/public/uitw-toets4.pdf">
+            uitwerkingen toets 4
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2006/public/toets5.pdf">
+            toets 5
+          </a>
+           over Automaten 
+        </li>
+        <li>
+          <a href="../fd-2006/public/uitw-toets5.pdf">
+            uitwerkingen toets 5
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2006/public/toets6.pdf">
+            inhaaltoets
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2006/public/uitw-toets6.pdf">
+            uitwerkingen inhaaltoets
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="../fd-2006/public/tentamen1.pdf">
+            tentamen
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2006/public/uitw-tentamen1.pdf">
+            uitwerkingen tentamen
+          </a>
+        </li>
+      </ul>
+      <h4>
+        Tests from 2005
+      </h4>
+      <ul>
+        <li>
+          <a href="../fd-2005/public/toets1.pdf">
+            toets 1
+          </a>
+           over Propositielogica 
+        </li>
+        <li>
+          <a href="../fd-2005/public/uitw-toets1.pdf">
+            uitwerkingen toets 1
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2005/public/toets2.pdf">
+            toets 2
+          </a>
+           over Predikaatlogica 
+        </li>
+        <li>
+          <a href="../fd-2005/public/uitw-toets2.pdf">
+            uitwerkingen toets 2
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2005/public/toets3.pdf">
+            toets 3
+          </a>
+           over Talen 
+        </li>
+        <li>
+          <a href="../fd-2005/public/uitw-toets3.pdf">
+            uitwerkingen toets 3
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2005/public/toets4.pdf">
+            toets 4
+          </a>
+           over Combinatoriek 
+        </li>
+        <li>
+          <a href="../fd-2005/public/uitw-toets4.pdf">
+            uitwerkingen toets 4
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2005/public/toets5.pdf">
+            toets 5
+          </a>
+           over Automaten 
+        </li>
+        <li>
+          <a href="../fd-2005/public/uitw-toets5.pdf">
+            uitwerkingen toets 5
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2005/public/toets6.pdf">
+            inhaaltoets
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2005/public/uitw-toets6.pdf">
+            uitwerkingen inhaaltoets 
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="../fd-2005/public/tentamen-ej.pdf">
+            tentamen
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2005/public/tentamen-hbo.pdf">
+            tentamen schakelcursus
+          </a>
+        </li>
+        <li>
+          <a href="../fd-2005/public/uitw-tentamen.pdf">
+            uitwerkingen tentamens
+          </a>
+        </li>
+      </ul>
+      <h4>
+        Tests from 2004
+      </h4>
+      <ul>
+        <li>
+          <a href="http://www.cs.kun.nl/~herman/FD/toets2004-1.pdf">
+            toets
+1
+          </a>
+           over Propositielogica
+        </li>
+        <li>
+          <a href="http://www.cs.kun.nl/~herman/FD/toets2004-1-uitw.pdf">
+            uitwerkingen toets
+1
+          </a>
+        </li>
+        <li>
+          <a href="http://www.cs.kun.nl/~herman/FD/toets2004-2.pdf">
+            toets
+2
+          </a>
+           over Predikaatlogica
+        </li>
+        <li>
+          <a href="http://www.cs.kun.nl/~herman/FD/toets2004-2-uitw.pdf">
+            uitwerkingen toets
+2
+          </a>
+        </li>
+        <li>
+          <a href="http://www.cs.kun.nl/~herman/FD/toets2004-3.pdf">
+            toets
+3
+          </a>
+           over Talen
+        </li>
+        <li>
+          <a href="http://www.cs.kun.nl/~herman/FD/toets2004-3-uitw.pdf">
+            uitwerkingen toets 3
+          </a>
+        </li>
+        <li>
+          <a href="http://www.cs.kun.nl/~herman/FD/toets2004-4.pdf">
+            toets
+4
+          </a>
+           over Combinatoriek
+        </li>
+        <li>
+          <a href="http://www.cs.kun.nl/~herman/FD/toets2004-5.pdf">
+            toets
+5
+          </a>
+           over Automaten
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="http://www.cs.kun.nl/~herman/FD/tent.pdf">
+            tentamen
+          </a>
+        </li>
+        <li>
+          <a href="http://www.cs.kun.nl/~herman/FD/tentHBO.pdf">
+            tentamen schakelcursus
+          </a>
+        </li>
+        <li>
+          <a href="http://www.cs.kun.nl/~herman/FD/tent-antw.pdf">
+            uitwerkingen tentamen
+          </a>
+        </li>
+        <li>
+          <a href="http://www.cs.kun.nl/~herman/FD/tentHBO-antw.pdf">
+            uitwerkingen tentamen schakelcursus
+          </a>
+        </li>
+      </ul>
+      <h4>
+        Tests from 2003
+      </h4>
+      <ul>
+        <li>
+          <a href="http://www.cs.kun.nl/~herman/FD/toets2003-2.pdf">
+            toets
+2
+          </a>
+           over Propositielogica
+        </li>
+        <li>
+          <a href="http://www.cs.kun.nl/~herman/FD/toets2003-3.pdf">
+            toets
+3
+          </a>
+           over Combinatoriek
+        </li>
+        <li>
+          <a href="http://www.cs.kun.nl/~herman/FD/toets2003-4.pdf">
+            toets
+4
+          </a>
+           over Predikaatlogica
+        </li>
+        <li>
+          <a href="http://www.cs.kun.nl/~herman/FD/toets2003-1.pdf">
+            toets
+5
+          </a>
+           over Automaten
+        </li>
+      </ul>
+      <h4>
+        Test from 2002
+      </h4>
+      <ul>
+        <li>
+          <a href="http://www.cs.kun.nl/~herman/FD/toets-oud3.pdf">
+             toets 3
+          </a>
+        </li>
+      </ul>
+    </div>
+  </body>
+</ht
