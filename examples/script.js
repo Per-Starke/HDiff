@@ -1,5 +1,4 @@
 $(document).ready(function(){
-    console.log("yes");
     $('.edited').on("mouseenter", function(e){
         $('#explanation').html($(this).attr("popup"));
     });
