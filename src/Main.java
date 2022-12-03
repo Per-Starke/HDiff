@@ -18,15 +18,15 @@ public class Main {
      */
     public static void main(String[] argv) throws Exception {
         String dir = "examples/";
-        String filename1  = "page3_old.html";//file
-        String filename2  = "page3_new.html";//file
-        String outputfile = "page3_output.html";//file
+        String filename1  = "papa_alt.html";//file
+        String filename2  = "papa_neu.html";//file
+        String outputfile = "papa_output.html";//file
         String snapshot1  = "";//folder
         String snapshot2  = "";//folder
         String snapshotoutputdir = "";//folder
         String u1 = "http://www.cs.ru.nl/~freek/courses/rbo/lezingen_20162017.html";
         String u2 = "http://www.cs.ru.nl/~freek/courses/rbo/lezingen_20172018.html";
-        (new Snapshotter(dir)).snapShotTwoURLs(filename1, filename2, u1, u2);
+       //  (new Snapshotter(dir)).snapShotTwoURLs(filename1, filename2, u1, u2);
         //Diff two files
         diffFiles(dir + filename1, dir + filename2, dir + outputfile);
         //Create a snapshot

@@ -114,7 +114,7 @@ class Outputter {
      * @throws IOException Is possibly thrown when opening the file
      */
     private void openWriter(String filename) throws IOException {
-        Files.copy(new File("htmls/template.html").toPath(), new File(filename).toPath(), StandardCopyOption.REPLACE_EXISTING);
+        Files.copy(new File("src/htmls/template.html").toPath(), new File(filename).toPath(), StandardCopyOption.REPLACE_EXISTING);
         FileWriter fw = new FileWriter(filename, true);
         BufferedWriter bw = new BufferedWriter(fw);
         this.out = new PrintWriter(bw);
